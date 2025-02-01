@@ -1,0 +1,19 @@
+1. <form>
+Defines the form and acts as a container for all input fields.
+2. <label>
+Provides a textual description for input fields, improving accessibility.
+3. <input>
+<input type="text"> – Captures text input (e.g., full name).
+<input type="email"> – Ensures valid email input.
+<input type="file"> – Allows users to upload files (e.g., resume).
+<input type="radio"> – Allows selection of one option from a group (employment type).
+<input type="checkbox"> – Used for agreeing to terms and conditions.
+4. <textarea>
+Provides a multi-line input field for longer text (e.g., work experience).
+5. <button>
+<button type="submit"> – Submits the form data when clicked.
+6. <h1>, <h2>
+<h1> – Defines the main heading (Job Application Form).
+<h2> – Defines subheadings (Personal Details, Resume Submission, etc.).
+7. <br>
+Adds a line break to separate form elements for better readability.
