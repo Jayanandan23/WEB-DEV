@@ -1,0 +1,16 @@
+body{
+    color:gold;
+    background-color:black;
+    text-align:center;
+    padding:20px;
+    font-size: 40px;
+    margin:30px;
+.btn{
+    font-size: 30px;
+}
+#Email{
+    font-size: 30px;
+}
+#pswrd{
+    font-size: 30px;
+}
