@@ -1,0 +1,54 @@
+<DOCTYPE html>
+<html>
+<head>
+        <title>Addition </title>
+        <link rel="stylesheet"href="styles.css">
+</head>
+<body>
+ <h1>Addition Test</h1>
+ <input type="text" size="5" class="inp" id="inp1">
+ <input type="button" value="+" class="bt" onclick="add()">
+ <input type="button" value="-" class="bt" onclick="sub()">
+ <input type="button" value="*" class="bt" onclick="mul()">
+ <input type="button" value="/" class="bt" onclick="div()">
+ <input type="text" size="5" class="inp" id="inp2">
+ <input type="button" value="=" class="bt" onclick="()">
+
+ <span id="res">0</span>
+ <script>
+ function add()
+ {
+        var a=Number(document.getElementById("inp1").value);
+        var b=Number(document.getElementById("inp2").value);
+        var c=a+b;
+        document.getElementById("res").innerHTML=c;
+ }
+ function sub()
+ {
+        var a=Number(document.getElementById("inp1").value);
+        var b=Number(document.getElementById("inp2").value);
+        var c=a-b;
+        document.getElementById("res").innerHTML=c;
+ }
+ function mul()
+ {
+        var a=Number(document.getElementById("inp1").value);
+        var b=Number(document.getElementById("inp2").value);
+        var c=a*b;
+        document.getElementById("res").innerHTML=c;
+ }
+ function div()
+ {
+        var a=Number(document.getElementById("inp1").value);
+        var b=Number(document.getElementById("inp2").value);
+        var c=a/b;
+        document.getElementById("res").innerHTML=c;
+ }
+
+
+
+ </script>
+</body>
+</html>
+
+
